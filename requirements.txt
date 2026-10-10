@@ -1,0 +1,5 @@
+numpy
+matplotlib
+scipy>=1.12
+sounddevice
+soundfile
