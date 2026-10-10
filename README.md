@@ -20,7 +20,7 @@ activate it in PowerShell with `.venv\Scripts\Activate.ps1`.
 python src/spectrogram.py
 ```
 
-This displays a spectrogram of the bundled `src/wav/kuchibue.wav` sample.
+This displays a spectrogram of the bundled `src/wav/whistle.wav` sample.
 No microphone recording is needed.
 
 ## Record audio
@@ -29,11 +29,11 @@ No microphone recording is needed.
 python src/record.py
 ```
 
-This records five seconds of mono audio at 44,100 Hz using the default input
+This records three seconds of mono audio at 44,100 Hz using the default input
 device, then displays the waveform. Close the plot window to save the recording
 to `src/wav/recorded.wav`. Microphone access is required.
 
-To visualize your recording, change `"kuchibue.wav"` to `"recorded.wav"` in the
+To visualize your recording, change `"whistle.wav"` to `"recorded.wav"` in the
 `filename` assignment in `src/spectrogram.py`, then run the spectrogram command
 again.
 

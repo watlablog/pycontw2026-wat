@@ -67,7 +67,7 @@ def plot(time, freq, db, duration, max_frequency):
 
 if __name__ == "__main__":
     # Read the bundled sample WAV file.
-    filename = Path(__file__).resolve().parent / "wav" / "kuchibue.wav"
+    filename = Path(__file__).resolve().parent / "wav" / "whistle.wav"
 
     audio, samplerate = sf.read(
         filename,

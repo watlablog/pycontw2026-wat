@@ -46,7 +46,7 @@ def plot(t, data):
 
 
 if __name__ == "__main__":
-    duration = 5
+    duration = 3
     samplerate = 44100
     index = None  # Use the default input device.
     data, t = record(index, samplerate, duration)
